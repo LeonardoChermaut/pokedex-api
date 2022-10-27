@@ -31,23 +31,6 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 
-@media screen and (min-width: 992px) {
-  .pokemons {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-}
-
-@media screen and (min-width: 576px) {
-  .pokemons {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-
-@media screen and (min-width: 380px) {
-  .pokemons {
-    grid-template-columns: 1fr 1fr;
-  }
-}
 
 .pokemon {
   display: flex;
@@ -93,10 +76,5 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-.pokemon .detail img {
-  height: 80px;
-  max-width: 100%;
-  align-self: flex-end;
 
-}
 
